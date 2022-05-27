@@ -1,1 +1,115 @@
 
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+    <title>Menu</title>
+    <style type="text/css">
+        body{
+            background: #282923;
+        }
+        section{
+            height:700px;
+            background-image: url("https://thietbiketnoi.com/wp-content/uploads/2020/01/tong-hop-hinh-nen-background-vector-designer-dep-do-phan-giai-fhd-2k-4k-moi-nhat-21.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+        }
+        *{
+            text-decoration: none;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: Arial;
+        }
+        .nav {
+            background-color: black;
+            display: flex;
+            height: 4em;
+            padding-right: 2.5em;
+            line-height: 4em;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 2em;
+            padding-left: 2em;
+        }
+        .Menu {
+            dispLay: flex;
+            font-size: 17px;
+            padding-right: 2.5em;
+        }
+        .Menu a:hover {
+            color: #1fa86f;
+            transition: color .2s ease-out;
+        }
+        .menu_link {
+            padding-right: 2.5em;
+            font-size: 17px;
+        }
+        .menu_link a:hover {
+            color: #1fa86f;
+        }
+        .menu_down {
+            background: black;
+            width: 180px;
+            height:10em;
+            line-height: 3em;
+            margin: 0px auto;   
+            position: absolute;
+            top: 60px;
+            right: 70px;
+            display: none;
+        }
+        .menu_down li {
+            text-align: center;
+            padding: 0px;
+        }
+        .menu_down li a:hover {
+            color: #28e370;
+        }
+        .Menu .menu_link:hover .menu_down {
+            display: block;
+        }
+        #cang0{
+            text-align: center;
+        }
+        #cang1, span{
+            font-size: 100px;
+            padding-top: 40px;
+            border: 2px solid white;
+            border: 10px 20px 10px 20px;
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="nav">
+        <img style="width:100px;height:63px;" src="https://pdp.edu.vn/wp-content/uploads/2021/01/hinh-anh-cute-de-thuong.jpg">
+        <ul class="Menu">
+            <li><a href="TrangChu.html">Trang Chủ</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="GioiThieu.html">Giới Thiệu</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="menu_link">
+                <a href="">Liên Hệ</a>
+                <ul class="menu_down">
+                <li><a href="#">Facebook</a></li>
+				<li><a href="#">Instagram</a></li>
+				<li><a href="https://github.com/votrungcang">Github</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</header>
+<section>
+    <div id="cang0">
+        <h1 id="cang1"> VOCANG </h1>
+    </div>
+    
+</section>
+</html>
