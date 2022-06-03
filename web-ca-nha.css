@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 570px;
+    background-repeat: no-repeat;
+    background-image: url("https://c.wallhere.com/photos/0d/bb/fantasy_art_night_artwork_fan_art_futuristic_city_cyberpunk_cyber_science_fiction-1197218.jpg!d");
+}
+ #tieude {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(48, 51, 50);
+    align-items: center;
+    display: flex;
+} 
+.tieu1 {
+   
+   
+    width: 100px;
+    height: 50px;
+    padding: 5px 0 0 10px;
+    box-sizing: border-box;
+    color: white;
+}
+.tieu2 {
+    text-align: center;
+   margin-left: 500px;
+    width: 700px;
+    height: 50px;
+    
+}
+.tieu2 ul {
+   
+    display: flex;
+    list-style: none;
+
+}
+.tieu2 li {
+height: 50px;
+
+margin-left: 20px;
+padding: 15px 0 0 20px;
+box-sizing: border-box;
+}
+.tieu2 li:hover{
+    background-color: rgb(74, 59, 116);
+}
+.tieu2 a{
+    padding-right: 20px;
+    color: white;
+    list-style: none;
+    font-weight: bold;
+}
+#than {
+    
+    width: 100%;
+    height: 420px;
+    text-align: center;
+    color: white;
+}
+
+
+.than1{
+    font-size: 20px;
+    margin-top: 100px;
+    padding: 20px 0 20px 0;
+    align-items: center;
+   
+}
+.than2{
+    padding: 5px 0 5px 0;
+    font-size: 15px;
+    
+    
+}
+#ket {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: rgb(48, 51, 50);
+}
+.ket1 {
+    padding: 25px 0 0 30px;
+    font-weight: bold;
+    color: black;
+}
+.ket2 {
+    padding-left: 900px;
+    padding-top: 25px;
+    
+}
+.ket2 ul {
+    list-style: none;
+    display: flex;
+}
+.ket2 li {
+    background-color: green;
+    width: 25px;
+    height: 25px;
+   border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+    transition: 1s;
+}
+.ket2 li:hover{
+    width: 35px;
+    height: 35px;
+}
+.ket2 a{
+    color: black;
+}
+
