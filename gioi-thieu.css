@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-image: url("https://toigingiuvedep.vn/wp-content/uploads/2021/02/anh-nen-4k-3d-cho-laptop.jpg");
+}
+
+.tieu-de {
+    background-color: black;
+}
+
+.tieu1 {
+    background-color: black;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.tieu1 h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.tieu1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.tieu1 ul li {
+    margin-right: 30px;
+}
+
+.tieu1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.tieu1 ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.than {
+    height: 100vh;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-image: url("https://toigingiuvedep.vn/wp-content/uploads/2021/02/anh-nen-4k-3d-cho-laptop.jpg");
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px sloid white;
+    font-weight: bold;
+}
+
+.than1 {
+    background-color: rgba(37, 128, 168, 0.4);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.than1 img {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.than11 {
+    text-align: center;
+}
+
+.than1 ul {
+    list-style: none;
+}
+
+.than1 ul li {
+    padding: 20px;
+}
+
+.than1 ul li i {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.than2 {
+    background-color: rgba(37, 128, 168, 0.4);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.than2 h1,
+h3 {
+    padding: 10px;
+}
+
+.than2 h2,
+p,
+ul {
+    padding: 10px;
+}
+
+.than2 h2 {
+    font-weight: bold;
+}
+
+.than2 p {
+    font-weight: bold;
+}
+
+.than2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.than2 ul li {
+    margin: 10px;
+    font-size: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.ket {
+    background-color: black;
+}
+
+.ket1 {
+    height: 20vh;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ket1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.ket1 ul li {
+    margin-right: 20px;
+}
+
+.ket1 ul li a {
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.ket1 ul li a:hover {
+    font-size: 40px;
+}
