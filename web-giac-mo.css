@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tieu-de {
+    background-color: black;
+}
+
+.tieu1 {
+    background-color: black;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.tieu1 h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.tieu1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.tieu1 ul li {
+    margin-right: 30px;
+}
+
+.tieu1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.tieu1 ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.than {
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-image: url("https://c.wallhere.com/photos/0d/bb/fantasy_art_night_artwork_fan_art_futuristic_city_cyberpunk_cyber_science_fiction-1197218.jpg!d");
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.than1 h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 50px;
+    border: 3px dashed white;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.than1 p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ket {
+    background-color: black;
+}
+
+.ket1 {
+    height: 20vh;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ket1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.ket1 ul li {
+    margin-right: 20px;
+}
+
+.ket1 ul li a {
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.ket1 ul li a:hover {
+    font-size: 40px;
+}
