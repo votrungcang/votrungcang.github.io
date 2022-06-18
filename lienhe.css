@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: url("https://i.pinimg.com/originals/81/df/3f/81df3f704ba55281ead0042466b293fa.jpg");
+}
+
+.tieu-de {
+    background-color: black;
+}
+
+.tieu1 {
+    background-color: black;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.tieu1 h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.tieu1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.tieu1 ul li {
+    margin-right: 30px;
+}
+
+.tieu1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.tieu1 ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.than {
+    width: 90%;
+    height: 100vh;
+    color: white;
+    margin: 0 auto;
+}
+
+.than h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.than p {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.than1 {
+    margin-top: 20px;
+}
+
+.than1 input {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.than1 button {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.than1 textarea {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.than3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.than2 {
+    margin-right: 50px;
+}
+
+.than2 ul {
+    list-style: none;
+}
+
+.than2 ul li {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.than2 ul li i {
+    font-size: 40px;
+    margin: 20px 20px;
+}
+
+.ket {
+    background-color: black;
+}
+
+.ket1 {
+    height: 20vh;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ket1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.ket1 ul li {
+    margin-right: 20px;
+}
+
+.ket1 ul li a {
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.ket1 ul li a:hover {
+    font-size: 40px;
+}
