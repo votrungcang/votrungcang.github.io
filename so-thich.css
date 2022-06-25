@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background: url("https://scr.vn/wp-content/uploads/2020/07/H%C3%ACnh-n%E1%BB%81n-%C4%91%E1%BA%B9p-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-cao-cho-PC-scaled-2048x1152.jpg");
+}
+
+.tieu-de {
+    background-color: black;
+}
+
+.tieu1 {
+    background-color: black;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.tieu1 h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.tieu1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.tieu1 ul li {
+    margin-right: 30px;
+}
+
+.tieu1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.tieu1 ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.than {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.than1 ul {
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.than1 ul li {
+    margin: 10px;
+}
+
+.than1 ul li img {
+    width: 200px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.than1 img:hover {
+    width: 300px;
+    height: 500px;
+}
+
+.than1 .img1 {
+    text-align: center;
+    color: white;
+}
+
+.ket {
+    background-color: black;
+}
+
+.ket1 {
+    height: 20vh;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ket1 ul {
+    display: flex;
+    list-style: none;
+}
+
+.ket1 ul li {
+    margin-right: 20px;
+}
+
+.ket1 ul li a {
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.ket1 ul li a:hover {
+    font-size: 40px;
+}
