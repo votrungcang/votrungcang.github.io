@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kiểm Tra</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="kiemtra.css" />
+</head>
+
+<body>
+    <div class="than">
+        <div claas="than1">
+            <div class="than11">
+                <p>
+                    Số thứ nhất
+                    <input type="text" id="s1" />
+                </p>
+                <p>
+                    Số thứ hai
+                    <input type="text" id="s2" />
+                </p>
+                <p>
+                    Phép tính
+                    <select label="Phép tính " id="tinh">
+              <option>+</option>
+              <option>-</option>
+              <option>*</option>
+              <option>/</option>
+            </select>
+                </p>
+                <p>
+                    <button onclick="myFunction()">Kết quả</button>
+                    <button type="submit">Hủy</button>
+                </p>
+            </div>
+        </div>
+        <input type="text" id="ketqua" />
+        <script type="text/javascript">
+            function myFunction() {
+                var s1 = document.getElementById("s1").value;
+                var s2 = document.getElementById("s2").value;
+                var tinh = document.getElementById("tinh").value;
+                var ketqua = 0;
+                if (tinh == "+") {
+                    ketqua = parseInt(s1) + parseInt(s2);
+                } else if (tinh == "-") {
+                    ketqua = parseInt(s1) - parseInt(s2);
+                } else if (tinh == "*") {
+                    ketqua = parseInt(s1) * parseInt(s2);
+                } else if (tinh == "/") {
+                    ketqua = parseInt(s1) / parseInt(s2);
+                }
+                document.getElementById("ketqua").value = ketqua;
+            }
+        </script>
+    </div>
+</body>
+
+</html>
